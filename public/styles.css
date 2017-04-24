@@ -1,0 +1,73 @@
+body{
+  width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.jumbotron {
+  background: url('Background.jpg');
+  background-size:cover;
+  color: #FFFFFF;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+
+.navbar {
+margin-bottom: 0;
+color:#FFFFFF;
+position: fixed;
+width:100%;
+background:rgba(0,0,0,0.8);   /* for latest browsers */
+
+
+}
+
+#pricing
+{
+  padding-top:70px;
+  padding-bottom:70px;
+  background:#f1f1f1;
+  text-align: center;
+}
+
+li{
+  font-size: 20px;
+}
+
+li,h1,h3, p, button{
+  font-family: 'Abel', sans-serif;
+}
+
+h2{
+  font-family: 'Bitter', serif;
+}
+
+#appointments{
+  width:100%;
+  background-color: #000;
+  font-color:#fff !important;
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+#gallery{
+
+}
+
+
+#contact{
+  background:url('http://wallpaperpulse.com/img/3913242.jpg') no-repeat center;
+  background-size:cover;
+  padding:40px;
+  color:#fff;
+  border-top: #333 7px solid;
+  border-bottom: #333 7px solid;
+
+}
+
+footer{
+  padding:10px;
+}
